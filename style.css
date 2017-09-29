@@ -1,0 +1,319 @@
+
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica');
+
+body {
+  background-color: black;
+}
+
+.responsive {
+  display:none;
+  background-color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: antiquewhite;
+}
+
+.flex-container1 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: antiquewhite;
+  background-color: black;
+}
+
+.flex-container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  background-color: black;
+}
+
+.flex-container3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 20.3vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: black;
+}
+
+.footercontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+}
+
+.twitter-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  
+  text-align: center;
+  position: relative;
+  width: 40%
+}
+
+.dragged-tweet {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  background-color: black;
+  color: antiquewhite;
+  font-family: 'IM Fell Double Pica', Helvetica, Sans-serif;
+  font-size: 1em;
+}
+
+.twitter-button {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: black;
+}
+
+.fade {
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+}
+
+.brighten {
+  -webkit-filter: brightness(120%);
+          filter: brightness(120%);
+}
+
+#quote1, #quote3, #quote5 {
+  position: absolute;
+  display: none; 
+  margin-top: 15px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+#quote2, #quote4 {
+  position: absolute;
+  display: none;
+  margin-top: 15px;
+  float: right;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+#quote6, #quote7, #quote8, #quote9, #quote10 {
+  position: absolute;
+  display: none;
+  margin-top: 15px;
+  float: right;
+  white-space: nowrap;
+  left:-500;
+  cursor: pointer;
+}
+
+.quoter {
+  color: #f92916;
+  font-size: 1.2em;
+  -webkit-animation: mymove 20s infinite;
+          animation: mymove 20s infinite;
+  font-family: 'IM Fell Double Pica', Helvetica, Sans-serif;
+  font-weight: bold;
+}
+
+@-webkit-keyframes mymove {
+    10% {color: #f92916;}
+    20% {color: #f96c14;}
+    30% {color: #f9bb14;}
+    40% {color: #e2f442;}
+    50% {color: #bff914;}
+    60% {color: #14f917;}
+    70% {color: #14f9b8;}
+    80% {color: #14f9f1;}
+    90% {color: #14acf9;}
+    100% {color: #1432f9;}
+}
+
+@keyframes mymove {
+    10% {color: #f92916;}
+    20% {color: #f96c14;}
+    30% {color: #f9bb14;}
+    40% {color: #e2f442;}
+    50% {color: #bff914;}
+    60% {color: #14f917;}
+    70% {color: #14f9b8;}
+    80% {color: #14f9f1;}
+    90% {color: #14acf9;}
+    100% {color: #1432f9;}
+}
+  
+  .quoter2 {
+  color: #f92916;
+  font-size: 1.2em;
+  -webkit-animation: mymove2 20s infinite;
+          animation: mymove2 20s infinite;
+  font-family: 'IM Fell Double Pica', Helvetica, Sans-serif;
+  font-weight: bold;
+}
+
+@-webkit-keyframes mymove2 {
+    10% {color: #14f9b8;}
+    20% {color: #14f917;}
+    30% {color: #bff914;}
+    40% {color: #e2f442;}
+    50% {color: #f9bb14;}
+    60% {color: #f96c14;}
+    70% {color: #f92916;}
+    80% {color: #1432f9;}
+    90% {color: #14acf9;}
+    100% {color: #14f9f1;}
+}
+
+@keyframes mymove2 {
+    10% {color: #14f9b8;}
+    20% {color: #14f917;}
+    30% {color: #bff914;}
+    40% {color: #e2f442;}
+    50% {color: #f9bb14;}
+    60% {color: #f96c14;}
+    70% {color: #f92916;}
+    80% {color: #1432f9;}
+    90% {color: #14acf9;}
+    100% {color: #14f9f1;}
+}
+  
+  .quoter3 {
+  color: #f92916;
+  font-size: 1.2em;
+  -webkit-animation: mymove3 20s infinite;
+          animation: mymove3 20s infinite;
+  font-family: 'IM Fell Double Pica', Helvetica, Sans-serif;
+  font-weight: bold;
+}
+
+@-webkit-keyframes mymove3 {
+    10% {color: #14f9f1;}
+    20% {color: #14acf9;}
+    30% {color: #1432f9;}
+    40% {color: #f92916;}
+    50% {color: #f96c14;}
+    60% {color: #f9bb14;}
+    70% {color: #e2f442;}
+    80% {color: #bff914;}
+    90% {color: #14f917;}
+    100% {color: #14f9b8;}
+}
+
+@keyframes mymove3 {
+    10% {color: #14f9f1;}
+    20% {color: #14acf9;}
+    30% {color: #1432f9;}
+    40% {color: #f92916;}
+    50% {color: #f96c14;}
+    60% {color: #f9bb14;}
+    70% {color: #e2f442;}
+    80% {color: #bff914;}
+    90% {color: #14f917;}
+    100% {color: #14f9b8;}
+}
+  
+  .quoter4 {
+  color: #f92916;
+  font-size: 1.2em;
+  -webkit-animation: mymove4 20s infinite;
+          animation: mymove4 20s infinite;
+  font-family: 'IM Fell Double Pica', Helvetica, Sans-serif;
+  font-weight: bold;
+}
+
+@-webkit-keyframes mymove4 {
+    10% {color: #e2f442;}
+    20% {color: #bff914;}
+    30% {color: #14f917;}
+    40% {color: #14f9b8;}
+    50% {color: #14f9f1;}
+    60% {color: #14acf9;}
+    70% {color: #1432f9;}
+    80% {color: #f92916;}
+    90% {color: #f96c14;}
+    100% {color: #f9bb14;}
+}
+
+@keyframes mymove4 {
+    10% {color: #e2f442;}
+    20% {color: #bff914;}
+    30% {color: #14f917;}
+    40% {color: #14f9b8;}
+    50% {color: #14f9f1;}
+    60% {color: #14acf9;}
+    70% {color: #1432f9;}
+    80% {color: #f92916;}
+    90% {color: #f96c14;}
+    100% {color: #f9bb14;}
+}
+  
+  .quoter5 {
+  color: #f92916;
+  font-size: 1.2em;
+  -webkit-animation: mymove5 20s infinite;
+          animation: mymove5 20s infinite;
+  font-family: 'IM Fell Double Pica', Helvetica, Sans-serif;
+  font-weight: bold;
+}
+
+@-webkit-keyframes mymove5 {
+    10% {color: #14acf9;}
+    20% {color: #14f9f1;}
+    30% {color: #14f9b8;}
+    40% {color: #14f917;}
+    50% {color: #bff914;}
+    60% {color: #e2f442;}
+    70% {color: #f9bb14;}
+    80% {color: #f96c14;}
+    90% {color: #f92916;}
+    100% {color: #1432f9;}
+  }
+
+@keyframes mymove5 {
+    10% {color: #14acf9;}
+    20% {color: #14f9f1;}
+    30% {color: #14f9b8;}
+    40% {color: #14f917;}
+    50% {color: #bff914;}
+    60% {color: #e2f442;}
+    70% {color: #f9bb14;}
+    80% {color: #f96c14;}
+    90% {color: #f92916;}
+    100% {color: #1432f9;}
+  }
+
+.inspire {
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    background-color: #0000FF;
+    color: antiquewhite;
+    font-family: 'IM Fell Double Pica';
+    font-size: 1.5em;
+    cursor: pointer;
+}
